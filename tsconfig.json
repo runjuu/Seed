@@ -22,6 +22,7 @@
 
     "baseUrl": ".",
     "paths": {
+      "@website/*": ["apps/website/src/*"],
       "@seed-sdk/*": ["packages/*/src"]
     }
   },

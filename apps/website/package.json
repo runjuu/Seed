@@ -5,20 +5,30 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prisma:migrate:dev": "prisma migrate dev",
+    "prisma:generate": "prisma generate",
+    "prisma:studio": "prisma studio",
+    "dev:db": "docker-compose -f docker-compose.db.yml up -d"
   },
   "dependencies": {
+    "@auth/prisma-adapter": "^2.0.0",
+    "@prisma/client": "^5.13.0",
     "@seed-sdk/types": "workspace:*",
+    "@simplewebauthn/browser": "^10.0.0",
+    "@simplewebauthn/server": "^10.0.0",
+    "next": "14.2.3",
+    "next-auth": "^5.0.0-beta.17",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
-    "tailwindcss": "^3.4.3"
+    "prisma": "^5.13.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5"
   }
 }
