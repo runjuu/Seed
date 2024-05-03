@@ -2,10 +2,12 @@
   "name": "seed",
   "private": true,
   "workspaces": [
+    "packages/*",
     "apps/*"
   ],
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/react": "^18"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

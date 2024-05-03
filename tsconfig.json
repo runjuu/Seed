@@ -22,6 +22,16 @@
     // Some stricter flags (disabled by default)
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noPropertyAccessFromIndexSignature": true
-  }
+    "noPropertyAccessFromIndexSignature": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@seed-sdk/*": ["packages/*/src"]
+    }
+  },
+  "references": [
+    { "path": "apps/client/tsconfig.json" },
+    { "path": "apps/server/tsconfig.json" },
+    { "path": "packages/types/tsconfig.json" }
+  ]
 }
