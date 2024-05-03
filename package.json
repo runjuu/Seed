@@ -1,13 +1,12 @@
 {
   "name": "seed",
   "private": true,
-  "workspaces": [
-    "packages/*",
-    "apps/*"
-  ],
+  "workspaces": ["packages/*", "apps/*"],
   "devDependencies": {
+    "@biomejs/biome": "1.7.2",
     "@types/bun": "latest",
-    "@types/react": "^18"
+    "@types/react": "^18",
+    "lefthook": "^1.6.10"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
