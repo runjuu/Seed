@@ -1,5 +1,5 @@
 {
-  "name": "seed-client",
+  "name": "mobile",
   "private": true,
   "main": "src/index.tsx",
   "scripts": {
@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@seed-sdk/types": "workspace:*",
     "expo": "~50.0.17",
     "expo-status-bar": "~1.11.1",
     "react": "18.3.1",

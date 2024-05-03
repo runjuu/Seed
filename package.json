@@ -3,7 +3,8 @@
   "private": true,
   "workspaces": ["packages/*", "apps/*"],
   "scripts": {
-    "prepare": "lefthook install"
+    "prepare": "lefthook install",
+    "build": "bum "
   },
   "devDependencies": {
     "@biomejs/biome": "1.7.2",

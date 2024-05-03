@@ -26,8 +26,8 @@
     }
   },
   "references": [
-    { "path": "apps/client/tsconfig.json" },
-    { "path": "apps/server/tsconfig.json" },
+    { "path": "apps/mobile/tsconfig.json" },
+    { "path": "apps/website/tsconfig.json" },
     { "path": "packages/types/tsconfig.json" }
   ]
 }
