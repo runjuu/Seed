@@ -1,4 +1,4 @@
-# @seed/types
+# @seed-sdk/types
 
 To install dependencies:
 

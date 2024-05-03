@@ -1,6 +1,6 @@
 {
   "name": "seed-client",
-  "version": "1.0.0",
+  "private": true,
   "main": "src/index.tsx",
   "scripts": {
     "start": "expo start",
@@ -16,6 +16,5 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
-  },
-  "private": true
+  }
 }

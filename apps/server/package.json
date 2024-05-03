@@ -1,5 +1,6 @@
 {
   "name": "seed-server",
+  "private": true,
   "scripts": {
     "dev": "bun run --hot src/index.ts"
   },
